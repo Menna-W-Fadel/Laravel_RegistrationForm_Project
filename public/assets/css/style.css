@@ -1,0 +1,103 @@
+.hidden{
+    display: none;
+}
+
+br{
+    margin-top:10px;
+}
+body {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+li{
+    list-style-type: none;
+}
+#topMovies{
+    /* text-align: center; */
+    margin-left: 110px;
+}
+h2{
+    margin-bottom: 30px;
+    margin-left: 110px;
+    font-weight: 800px;
+}
+div#movie h4{
+    margin-top: 35px;
+    padding: 6px;
+    font-weight: 800px;
+}
+h6{
+    padding-left: 6px;
+    color: rgb(104, 100, 100);
+}
+.container {
+    margin: 20px 0px;
+    margin-left: 110px;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="date"],
+.container input[type="tel"],
+.container input[type="file"] {
+    width: 95%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: box-shadow 0.025s;
+}
+.container input:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.356);
+}
+.container span {
+    color: red;
+}
+
+.container div {
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    /* text-align: center; */
+}
+
+.container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 45%;
+}
+
+.container button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#date-btn{
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: #45a049 ;
+    transition: 0.2s;
+    font-size: large;
+}
+#date-btn:hover{
+    background-color:  #45a049;
+    color: white;
+}

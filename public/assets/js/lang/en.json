@@ -1,0 +1,10 @@
+{
+    "fullnameError":"* Full name is required",
+    "usernameError":"Username is required",
+    "birthdayError":"Birthday is required",
+    "emailError":"Email is required",
+    "phoneError":"Phone is required",
+    "addressError":"Address is required",
+    "passError":"Password is required",
+    "userImgErr":"Please select an image file."
+}

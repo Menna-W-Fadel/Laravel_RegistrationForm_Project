@@ -1,0 +1,37 @@
+<?php
+return['home'=>'Home',
+'features'=>'Features',
+'pricing'=>'Pricing',
+'about'=>'About',
+
+'welcome'=>'Welcome to our Website!',
+'subMess'=>'Scroll down to fill the Registration form :)',
+'fullname'=>'Full Name',
+'username'=>'User Name',
+'birthday'=>'Birthday',
+'getMovies'=>'Get Movies',
+'email'=>'E-mail',
+'phone'=>'Phone',
+'address'=>'Address',
+'password'=>'Password',
+'confirmPass'=>'Confirm Password',
+'userImage'=>'User Image',
+'submit'=>'Submit',
+'topMovies'=>'Top Movies in',
+
+
+'fullnameErrorEmpty'=>' Full name is required',
+'fullnameErr'=>'Only letters and white spaces are allowed',
+'usernameError'=>'Username is required',
+'birthdayError'=>'Birthday is required',
+'emailFormatErr'=>'Incorrect email format',
+'emailError'=>'Email is required',
+'phoneError'=>'Phone is required',
+'addressError'=>'Address is required',
+'passError'=>'Password is required',
+'passStrongErr'=>'Password must be at least 8 characters with at least 1 number and 1 special character',
+'confirmPassErr'=>'Password confirmation is required',
+'confirmpassMatch'=>'Passwords do not match',
+'userImgErr'=>'Please select an image file.',
+
+];
