@@ -1,0 +1,19 @@
+.nav-bar{
+    margin-left: 32vmax;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid,.navbar, .navbar-expand-lg ,.bg-body ,.fixed-top {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height:70px;
+    background-color:#060b13;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover,.nav-link.active{
+    color: #4CAF50;
+}
